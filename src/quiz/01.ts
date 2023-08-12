@@ -8,25 +8,24 @@ let a: number = 1;
 
 // ここがエラーにならないようにする
 a++;
-console.log(a++);
 
 // Q2: 変数 c の定義を修正して型エラーを直してください
 const b: number = 2;
 
 // ここの型を修正する
-let c: number = b;
+const c: number = b;
 
 // Q3: 変数 d の定義を修正して型エラーを直してください
 
 // ここの型を修正する
-const d: string = "hello";
+const d: "hello" = "hello";
 
 // ここがエラーにならないようにする
-let e: string = d;
+const e: "hello" = d;
 
 // ---------- 型推論 (Type Inference) ----------
 
 // Q4: 変数 g の定義を修正して型エラーを直してください
-const f: number = 1;
+const f = 1;
 
-let g: number = f;
+const g: number = f;
